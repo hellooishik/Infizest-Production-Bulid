@@ -87,9 +87,21 @@ html{
   border-radius: 20px;
 }
 .line-img-ii{
-  padding-left: 10vw;
+  position: absolute;
+  padding-left: 26vh;
   border-radius: 20px;
 
+}
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: 0px !important;
+  margin-left: -15px;
+}
+.line-img-ii{
+  margin-top: 20vh;
 }
 .abt-right{
   margin-top: 40vh;

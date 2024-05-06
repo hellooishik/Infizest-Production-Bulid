@@ -486,8 +486,10 @@ body{
     box-shadow: 20px;
     border-radius: 20px;
     margin-bottom: 5vh;
+    margin-top: 20vh;
+  }
 
-}
+
 .grid_contact{
   background: url(/images/contact-us-communication-support-service-assistance-concept.jpg);
   background-size: cover;
@@ -498,6 +500,7 @@ body{
   box-shadow: 20px;
   border-radius: 20px;
   margin-bottom: 5vh;
+  margin-top: 20vh;
 }
 .grid_two{
   background: url(/images/service.webp);
@@ -509,8 +512,10 @@ body{
   box-shadow: 20px;
   border-radius: 20px;
   margin-bottom: 5vh;
-
+  margin-top: 20vh;
 }
+
+
 .grid_two h1{
   padding-top: 25vh;
   font-size: 70px;

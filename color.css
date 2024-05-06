@@ -12,11 +12,7 @@
 html{
   width: 100vw;
 }
-@media screen and (max-width: 800px) {
-  *{
-    overflow: auto;
-  }
-}
+
 .navbar-brand img {
     width: 200px; /* Increase the width of the logo */
     height: auto; /* Maintain aspect ratio */

@@ -358,3 +358,24 @@ function initMap() {
 }
 
 // counter Bar Js
+window.addEventListener("scroll", function () {
+  var header = document.getElementById("header");
+  if (window.scrollY > 0) {
+    header.classList.add("navbar-scrolled");
+  } else {
+    header.classList.remove("navbar-scrolled");
+  }
+});
+// Wait for the page to fully load
+window.addEventListener("load", function () {
+  // Select the loading bar element
+  var loadingBar = document.querySelector(".loading-bar");
+
+  // Remove the loading bar after 2 seconds (adjust the duration as needed)
+  setTimeout(function () {
+    // Check if the loading bar element exists before attempting to remove it
+    if (loadingBar) {
+      loadingBar.remove();
+    }
+  }, 2000); // Adjust the duration (in milliseconds) as needed
+});

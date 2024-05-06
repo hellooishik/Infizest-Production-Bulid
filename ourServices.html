@@ -108,7 +108,7 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col">
-            <div class="grid_contact">
+            <div class="grid_two">
             
             </div>
           </div>
@@ -116,68 +116,95 @@
       </div>
     </section>
 
-    <div class="background">
-      <div class="container">
-        <div class="screen">
-          <div class="screen-header">
-            <div class="screen-header-left">
-              <div class="screen-header-button close"></div>
-              <div class="screen-header-button maximize"></div>
-              <div class="screen-header-button minimize"></div>
-            </div>
-            <div class="screen-header-right">
-              <div class="screen-header-ellipsis"></div>
-              <div class="screen-header-ellipsis"></div>
-              <div class="screen-header-ellipsis"></div>
-            </div>
-          </div>
-          <div class="screen-body">
-            <div class="screen-body-item left">
-              <div class="app-title">
-                <span>CONTACT</span>
-                <span>US</span>
-              </div>
-              <div class="app-contact">CONTACT INFO : +62 81 314 928 595</div>
-            </div>
-            <div class="screen-body-item">
-              <div class="app-form">
-                <div class="app-form-group">
-                  <input class="app-form-control" placeholder="NAME" value="Krisantus Wanandi">
-                </div>
-                <div class="app-form-group">
-                  <input class="app-form-control" placeholder="EMAIL">
-                </div>
-                <div class="app-form-group">
-                  <input class="app-form-control" placeholder="CONTACT NO">
-                </div>
-                <div class="app-form-group message">
-                  <input class="app-form-control" placeholder="MESSAGE">
-                </div>
-                <div class="app-form-group buttons">
-                  <button class="app-form-button">CANCEL</button>
-                  <button class="app-form-button">SEND</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="credits">
-          Designed by
-          <a class="credits-link" href="#" target="_blank">
-            <svg class="dribbble" viewBox="0 0 200 200">
-              <g stroke="#ffffff" fill="none">
-                <circle cx="100" cy="100" r="90" stroke-width="20"></circle>
-                <path d="M62.737004,13.7923523 C105.08055,51.0454853 135.018754,126.906957 141.768278,182.963345" stroke-width="20"></path>
-                <path d="M10.3787186,87.7261455 C41.7092324,90.9577894 125.850356,86.5317271 163.474536,38.7920951" stroke-width="20"></path>
-                <path d="M41.3611549,163.928627 C62.9207607,117.659048 137.020642,86.7137169 189.041451,107.858103" stroke-width="20"></path>
-              </g>
-            </svg>
-            Infizest
-          </a>
-        </div>
+    <!-- Hidden popup -->
+    <div id="popup" class="popup">
+      <div class="popup-content">
+        <span class="close-popup">&times;</span>
+        <!-- X mark for closing -->
+        <p>Who are you?</p>
+        <button id="fresherBtn" class="btn btn-primary">Fresher</button>
+        <button id="experiencedBtn" class="btn btn-primary">Experienced</button>
       </div>
     </div>
-    
+    <!-- service section -->
+
+    <section class="service_section layout_padding">
+      <div class="service_container">
+        <div class="container">
+          <div
+            class="heading_container heading_center"
+            data-aos="fade-up"
+            data-aos-duration="2000"
+          >
+            <h2
+              class="data-aos fade-right section-heading"
+              data-aos-duration="2000"
+            >
+              Our <span class="section-heading">Services</span>
+            </h2>
+
+            <p>
+              We are a team of passionate workers and designers that love to
+              build amazing products.
+            </p>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="box" data-aos="fade-up" data-aos-duration="2000">
+                <div class="img-box">
+                  <img src="images/studio.png" alt="" />
+                </div>
+                <div class="detail-box">
+                  <h5>Publishing Studio</h5>
+                  <p>
+                    fact that a reader will be distracted by the readable
+                    content of a page when looking at its layout. The point of
+                    using
+                  </p>
+                  <a href=""> Read More </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="box" data-aos="fade-down" data-aos-duration="2000">
+                <div class="img-box">
+                  <img src="images/web-2.png" alt="" />
+                </div>
+                <div class="detail-box">
+                  <h5>Web Solutions</h5>
+                  <p>
+                    fact that a reader will be distracted by the readable
+                    content of a page when looking at its layout. The point of
+                    using
+                  </p>
+                  <a href=""> Read More </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="box" data-aos="fade-up" data-aos-duration="2000">
+                <div class="img-box">
+                  <img src="images/content-two.png" alt="" />
+                </div>
+                <div class="detail-box">
+                  <h5>Content Hub</h5>
+                  <p>
+                    fact that a reader will be distracted by the readable
+                    content of a page when looking at its layout. The point of
+                    using
+                  </p>
+                  <a href=""> Read More </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="btn-box" data-aos="fade-right" data-aos-duration="2000">
+            <a href=""> View All </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- end service section -->
     <section class="partners">
       <div class="container-fluid">
@@ -262,7 +289,6 @@
     
                   <div class="col-xs-12 col-xl-6 order-2 order-xl-1">
                     <ul class="nav justify-content-center">
-                     
                       <li
                         class="nav-item"
                         style="
@@ -273,8 +299,8 @@
                         <a
                           class="nav-link link-secondary px-2 px-md-3"
                           style="color: white"
-                          href="index.html"
-                          >Home</a
+                          href="#!"
+                          >About</a
                         >
                       </li>
                       <li
@@ -287,40 +313,55 @@
                         <a
                           class="nav-link link-secondary px-2 px-md-3"
                           style="color: white"
-                          href="ourServices.html"
-                          >Services</a
-                        >
-                      </li>
-                      <li
-                        class="nav-item"
-                        style="
-                          font-family: Varela Round, sans-serif;
-                          font-size: 20px;
-                        "
-                      >
-                        <a
-                          class="nav-link link-secondary px-2 px-md-3"
-                          style="color: white"
-                          href="career.html"
-                          >career</a
-                        >
-                      </li>
-                      <li
-                        class="nav-item"
-                        style="
-                          font-family: Varela Round, sans-serif;
-                          font-size: 20px;
-                        "
-                      >
-                        <a
-                          class="nav-link link-secondary px-2 px-md-3"
-                          style="color: white"
-                          href="contact.html"
+                          href="#!"
                           >Contact</a
+                        >
+                      </li>
+                      <li
+                        class="nav-item"
+                        style="
+                          font-family: Varela Round, sans-serif;
+                          font-size: 20px;
+                        "
+                      >
+                        <a
+                          class="nav-link link-secondary px-2 px-md-3"
+                          style="color: white"
+                          href="#!"
+                          >Advertise</a
+                        >
+                      </li>
+                      <li
+                        class="nav-item"
+                        style="
+                          font-family: Varela Round, sans-serif;
+                          font-size: 20px;
+                        "
+                      >
+                        <a
+                          class="nav-link link-secondary px-2 px-md-3"
+                          style="color: white"
+                          href="#!"
+                          >Terms</a
+                        >
+                      </li>
+                      <li
+                        class="nav-item"
+                        style="
+                          font-family: Varela Round, sans-serif;
+                          font-size: 20px;
+                        "
+                      >
+                        <a
+                          class="nav-link link-secondary px-2 px-md-3"
+                          style="color: white"
+                          href="#!"
+                          >Privacy</a
                         >
                       </li>
                     </ul>
                   </div>
+    
                   <div class="col-xs-12 col-sm-6 col-xl-3 order-1 order-xl-2">
                     <ul class="nav justify-content-center justify-content-sm-end">
                       <li class="nav-item">

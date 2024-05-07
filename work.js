@@ -1,3 +1,29 @@
+// Transpared Fixed Code
+window.addEventListener("scroll", function () {
+  var navbar = document.getElementById("navbar");
+  if (window.scrollY > 0) {
+    navbar.classList.add("solid-bg");
+    navbar.classList.remove("transparent-bg");
+  } else {
+    navbar.classList.remove("solid-bg");
+    navbar.classList.add("transparent-bg");
+  }
+});
+
+// Wait for the page to fully load
+window.addEventListener("load", function () {
+  // Select the loading bar element
+  var loadingBar = document.querySelector(".loading-bar");
+
+  // Remove the loading bar after 2 seconds (adjust the duration as needed)
+  setTimeout(function () {
+    // Check if the loading bar element exists before attempting to remove it
+    if (loadingBar) {
+      loadingBar.remove();
+    }
+  }, 2000); // Adjust the duration (in milliseconds) as needed
+});
+
 $(document).ready(function () {
   AOS.init();
 });

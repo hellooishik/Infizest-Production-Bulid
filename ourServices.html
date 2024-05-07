@@ -70,7 +70,7 @@
       <!-- header section strats -->
       <header class="header_section">
         <div class="container-fluid px-0">
-          <nav class="navbar navbar-expand-lg custom_nav-container fixed-top">
+          <nav class="navbar navbar-expand-lg custom_nav-container fixed-top" id="navbar">
             <a class="navbar-brand" href="#">
               <img
                 src="/images/fulllogo_transparent.png"
@@ -115,31 +115,28 @@
           </nav>
         </div>
       </header>
-      <script>
-        // Wait for the page to fully load
-        window.addEventListener("load", function() {
-          // Select the loading bar element
-          var loadingBar = document.querySelector(".loading-bar");
       
-          // Remove the loading bar after 2 seconds (adjust the duration as needed)
-          setTimeout(function() {
-            // Check if the loading bar element exists before attempting to remove it
-            if (loadingBar) {
-              loadingBar.remove();
-            }
-          }, 2000); // Adjust the duration (in milliseconds) as needed
-        });
-      </script>
       <!-- end header section -->
     </div>
 
     <section class="first-form">
       <div class="container-fluid">
+        <!-- Breadcrumb -->
+        
+        <!-- /Breadcrumb -->
+    
         <div class="row">
           <div class="col">
             <div class="grid_two">
-            
+
+                     
             </div>
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Services</li>
+              </ol>
+            </nav>
           </div>
         </div>
       </div>

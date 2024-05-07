@@ -65,11 +65,10 @@
           <img src="images/hero-bg.png" alt="" />
         </div>
       </div>
-
       <!-- header section strats -->
       <header class="header_section">
         <div class="container-fluid px-0">
-          <nav class="navbar navbar-expand-lg custom_nav-container fixed-top">
+          <nav class="navbar navbar-expand-lg custom_nav-container fixed-top" id="navbar">
             <a class="navbar-brand" href="#">
               <img
                 src="/images/fulllogo_transparent.png"
@@ -114,40 +113,26 @@
           </nav>
         </div>
       </header>
+    
       <!-- end header section -->
       <!-- slider section -->
       <section class="slider_section">
         <div id="customCarousel1" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
+            <!-- First Slide -->
             <div class="carousel-item active">
               <div class="container">
                 <div class="row">
                   <div class="col-md-6">
-                    <div
-                      class="detail-box"
-                      data-aos="fade-up"
-                      data-aos-duration="2000"
-                    >
-                      <h1
-                        style="font-family: Varela Round; text-align: left"
-                        class="data-aos fade-up"
-                        data-aos-duration="2000"
-                      >
-                        Infizest <br />
-                        E-Book Studio
+                    <div class="detail-box" data-aos="fade-up" data-aos-duration="2000">
+                      <h1 style="font-family: Varela Round; text-align: left" class="data-aos fade-up" data-aos-duration="2000">
+                        Infizest <br /> E-Book Studio
                       </h1>
-                      <p
-                        style="
-                          font-family: Arial, Helvetica, sans-serif;
-                          font-size: 20px;
-                        "
-                      >
-                        We build beautiful products with the latest technologies
-                        and frameworks. We are a team of passionate workers and
-                        designers that love to build amazing products.
+                      <p style="font-family: Arial, Helvetica, sans-serif; font-size: 20px;">
+                        We build beautiful products with the latest technologies and frameworks. We are a team of passionate workers and designers that love to build amazing products.
                       </p>
                       <div class="btn-box">
-                        <a href="" class="btn1"> Read More </a>
+                        <a href="" class="btn1">Read More</a>
                       </div>
                     </div>
                   </div>
@@ -159,31 +144,20 @@
                 </div>
               </div>
             </div>
+            <!-- Second Slide -->
             <div class="carousel-item">
               <div class="container">
                 <div class="row">
                   <div class="col-md-6">
-                    <div
-                      class="detail-box"
-                      data-aos="fade-right"
-                      data-aos-duration="2000"
-                    >
-                      <h1
-                        style="font-family: Varela Round; text-align: left"
-                        class="data-aos fade-up"
-                        data-aos-duration="2000"
-                      >
-                        Ultimate <br />
-                        Publishing Studio
+                    <div class="detail-box" data-aos="fade-right" data-aos-duration="2000">
+                      <h1 style="font-family: Varela Round; text-align: left" class="data-aos fade-up" data-aos-duration="2000">
+                        Ultimate <br /> Publishing Studio
                       </h1>
-                      <p style="font-family: Varela Round; font-size: 20px">
-                        We Build most of the Web sloutions and Products
-                        thoughtout ensutring the best Customer Expriences. We
-                        are a team of passionate workers and designers that love
-                        to build amazing products.
+                      <p style="font-family: Varela Round; font-size: 20px;">
+                        We Build most of the Web solutions and Products thought-out ensuring the best Customer Experiences. We are a team of passionate workers and designers that love to build amazing products.
                       </p>
                       <div class="btn-box">
-                        <a href="" class="btn1"> Read More </a>
+                        <a href="" class="btn1">Read More</a>
                       </div>
                     </div>
                   </div>
@@ -195,21 +169,18 @@
                 </div>
               </div>
             </div>
+            <!-- Third Slide -->
             <div class="carousel-item">
               <div class="container">
                 <div class="row">
                   <div class="col-md-6">
                     <div class="detail-box">
-                      <h1 style="font-family: Varela Round; text-align: left">
-                        Content Hub
-                      </h1>
-                      <p style="font-size: 20px">
-                        We Love content and it's createions worldwide. We are a
-                        team of passionate workers and designers that love to
-                        build amazing products.
+                      <h1 style="font-family: Varela Round; text-align: left;">Content Hub</h1>
+                      <p style="font-size: 20px;">
+                        We Love content and its creations worldwide. We are a team of passionate workers and designers that love to build amazing products.
                       </p>
                       <div class="btn-box">
-                        <a href="" class="btn1"> Read More </a>
+                        <a href="" class="btn1">Read More</a>
                       </div>
                     </div>
                   </div>
@@ -222,12 +193,20 @@
               </div>
             </div>
           </div>
+          <!-- Carousel Controls -->
+          <a class="carousel-control-prev" href="#customCarousel1" role="button" data-slide="prev">
+            <!-- Customize the previous button with your arrow image -->
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#customCarousel1" role="button" data-slide="next">
+            <!-- Customize the next button with your arrow image -->
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+          <!-- Carousel Indicators -->
           <ol class="carousel-indicators">
-            <li
-              data-target="#customCarousel1"
-              data-slide-to="0"
-              class="active"
-            ></li>
+            <li data-target="#customCarousel1" data-slide-to="0" class="active"></li>
             <li data-target="#customCarousel1" data-slide-to="1"></li>
             <li data-target="#customCarousel1" data-slide-to="2"></li>
           </ol>

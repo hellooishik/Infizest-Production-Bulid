@@ -12,6 +12,18 @@
 html{
   width: 100vw;
 }
+.custom_nav-container.navbar {
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+.transparent-bg {
+  background-color: transparent !important;
+}
+
+.solid-bg {
+  background-color: #000 !important;
+}
 
 .navbar-brand img {
     width: 200px; /* Increase the width of the logo */
@@ -479,7 +491,7 @@ body{
 .grid{
     background: url(/images/set-row.jpg);
     background-size: cover;
-    height: 70vh;
+    height: 60vh;
     text-align: center;
     flex-direction: column;
     justify-content: center;
@@ -489,11 +501,18 @@ body{
     margin-top: 20vh;
   }
 
+  .breadcrumb {
+    background-color: #100420;
+ justify-content: center;
+  }
 
+  .breadcrumb-item.active {
+    color: #BFA977;
+}
 .grid_contact{
   background: url(/images/contact-us-communication-support-service-assistance-concept.jpg);
   background-size: cover;
-  height: 70vh;
+  height: 30vh;
   text-align: center;
   flex-direction: column;
   justify-content: center;
@@ -505,7 +524,7 @@ body{
 .grid_two{
   background: url(/images/service.webp);
   background-size: cover;
-  height: 70vh;
+  height: 40vh;
   text-align: center;
   flex-direction: column;
   justify-content: center;

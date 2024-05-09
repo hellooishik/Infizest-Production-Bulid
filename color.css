@@ -1628,4 +1628,19 @@ body, button, input {
   0% { width: 0; }
   100% { width: 100%; }
 }
-
+@media (min-width: 992px) {
+  .section-xl {
+      padding-top: 0px !important; 
+      padding-bottom: 0px !important;
+  }
+}
+@media (min-width: 768px) {
+  .section-xl {
+      padding-top: 0px !important;
+      padding-bottom: 95px;
+  }
+}
+.section-md, .section-lg, .section-xl {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}

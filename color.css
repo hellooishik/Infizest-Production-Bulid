@@ -1,13 +1,36 @@
+/* This is the Custom Css Chain  */
 
+/* Fonts Importing  */
  @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 
  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+
+ /* Fonts ends  */
 *{
-    font-family: "Varela Round", sans-serif;
-    margin: 0;
-    padding: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+}
 
+/* Responsive Grid adding  */
 
+@media (max-width: 992px) {
+  .slider_section {
+      /* padding: 45px 0 75px 0; */
+      padding-top: 40vh !important;
+  }
+}
+
+p{
+  font-family: "Arimo", sans-serif !important;
+  font-optical-sizing: auto !important;
+  color: wheat !important;
 }
 html{
   width: 100vw;
@@ -1639,6 +1662,11 @@ body, button, input {
       padding-top: 0px !important;
       padding-bottom: 95px;
   }
+}
+@media (min-width: 768px) {
+.partners{
+    display: none;
+}
 }
 .section-md, .section-lg, .section-xl {
   padding-top: 60px;

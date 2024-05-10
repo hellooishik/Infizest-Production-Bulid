@@ -17,7 +17,24 @@
   margin: 0;
   padding: 0;
 }
-
+.font{
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: wheat !important;
+  font-size: 20px;
+}
+.font-heading{
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: wheat !important;
+  font-size: 50px;
+}
+.font-two{
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: black !important;
+  font-size: 20px;
+}
 /* Responsive Grid adding  */
 
 @media (max-width: 992px) {
